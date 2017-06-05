@@ -6,8 +6,7 @@
 
 ## Update
 
-`cd ~/Library/Developer/Xcode/Templates/File\ Templates/eastsss/`
-`git pull`
+`cd ~/Library/Developer/Xcode/Templates/File\ Templates/eastsss/ && git pull`
 
 ## Author
 
