@@ -18,7 +18,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         loadNib()
-        configureFromXib()
+        configure()
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -28,18 +28,18 @@ class ___FILEBASENAMEASIDENTIFIER___: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        configureFromXib()
+        configure()
     }
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        configureFromXib()
+        configure()
     }
 }
 
-// MARK: ConfigurableFromXib
-extension ___FILEBASENAMEASIDENTIFIER___: ConfigurableFromXib {
-    func configureFromXib() {
+// MARK: Configuration
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    func configure() {
         
     }
 }
